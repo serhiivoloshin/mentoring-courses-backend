@@ -1,0 +1,8 @@
+{
+  "courseDS": {
+    "name": "courseDS",
+    "localStorage": "",
+    "file": "db.json",
+    "connector": "memory"
+  }
+}

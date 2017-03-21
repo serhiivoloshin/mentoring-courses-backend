@@ -1,0 +1,13 @@
+{
+  "ids": {
+    "course": 5
+  },
+  "models": {
+    "course": {
+      "1": "{\"title\":\"Course 1\",\"description\":\"Some description\",\"date\":\"2017-03-21T10:51:32.753Z\",\"duration\":100,\"authors\":[\"Andrew Smith\"],\"id\":1}",
+      "2": "{\"title\":\"Course 2\",\"description\":\"Some description\",\"date\":\"2017-03-22T10:51:32.753Z\",\"duration\":150,\"authors\":[\"Andrew Smith\"],\"id\":2}",
+      "3": "{\"title\":\"Course 3\",\"description\":\"Some description\",\"date\":\"2017-03-30T22:20:00.753Z\",\"duration\":20,\"authors\":[\"John Doe\",\"Jane Doe\"],\"id\":3}",
+      "4": "{\"title\":\"Course 4\",\"description\":\"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\",\"date\":\"2017-03-30T22:20:00.753Z\",\"duration\":20,\"authors\":[\"John Doe\",\"Jane Doe\"],\"id\":4}"
+    }
+  }
+}
