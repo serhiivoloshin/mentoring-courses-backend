@@ -16,5 +16,29 @@
   "course": {
     "dataSource": "courseDS",
     "public": true
+  },
+  "user": {
+    "dataSource": "courseDS",
+    "public": true
+  },
+  "User": {
+    "dataSource": "courseDS",
+    "public": false
+  },
+  "AccessToken": {
+    "dataSource": "courseDS",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "courseDS",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "courseDS",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "courseDS",
+    "public": false
   }
 }
