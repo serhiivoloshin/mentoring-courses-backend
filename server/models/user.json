@@ -1,31 +1,14 @@
 {
-  "name": "course",
-  "base": "PersistedModel",
+  "name": "user",
+  "plural": "users",
+  "base": "User",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "title": {
-      "type": "string",
-      "required": true
-    },
-    "description": {
+    "name": {
       "type": "string"
-    },
-    "date": {
-      "type": "date",
-      "required": true
-    },
-    "duration": {
-      "type": "number",
-      "required": true,
-      "default": 1
-    },
-    "authors": {
-      "type": [
-        "string"
-      ]
     }
   },
   "validations": [],

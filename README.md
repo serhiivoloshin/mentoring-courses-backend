@@ -2,11 +2,22 @@
 
 ### Currently available:
 - REST for /courses
+- REST for /users
+- authorization
 
-### Planned to implement:
-- authorization;
-- REST for /users;
-- REST for /authors;
+### Authorization:
+To get authorized request: 
+```
+POST /users/login 
+body: {
+  login: 'yurec',
+  password: 'yurec'
+}
+```
+In response will be recieved "access_token", which can be used like that:
+```
+http://localhost:3000/api/users?access_token=${ access_token }
+```
 
 ### How to work:
 

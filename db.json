@@ -1,6 +1,8 @@
 {
   "ids": {
-    "course": 5
+    "course": 5,
+    "AccessToken": 4,
+    "user": 7
   },
   "models": {
     "course": {
@@ -8,6 +10,15 @@
       "2": "{\"title\":\"Course 2\",\"description\":\"Some description\",\"date\":\"2017-03-22T10:51:32.753Z\",\"duration\":150,\"authors\":[\"Andrew Smith\"],\"id\":2}",
       "3": "{\"title\":\"Course 3\",\"description\":\"Some description\",\"date\":\"2017-03-30T22:20:00.753Z\",\"duration\":20,\"authors\":[\"John Doe\",\"Jane Doe\"],\"id\":3}",
       "4": "{\"title\":\"Course 4\",\"description\":\"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\",\"date\":\"2017-03-30T22:20:00.753Z\",\"duration\":20,\"authors\":[\"John Doe\",\"Jane Doe\"],\"id\":4}"
-    }
+    },
+    "user": {
+      "1": "{\"name\":\"Yurec\",\"username\":\"yurec\",\"password\":\"$2a$10$FFTMLvbVRQzHGfY/OJ.X5OdJbi7RUNQFnO4Y42TwPjeHELPozJwKm\",\"email\":\"yurec@yurec.com\",\"emailVerified\":false,\"id\":1}",
+      "2": "{\"name\":\"Dimon\",\"username\":\"dimon\",\"password\":\"$2a$10$/AYPQCXGqO/Pxk2EnxnNueSq42p8OM9OhMiWx7damjCaZPe9.h03W\",\"email\":\"dimon@dimon.com\",\"emailVerified\":false,\"id\":2}",
+      "3": "{\"name\":\"Misha\",\"username\":\"misha\",\"password\":\"$2a$10$jFOGUcjXqkm6HW6RAhF6W.NTL.wml2vNIr2QfRXcbFKoJUiaJo5/q\",\"email\":\"misha@misha.com\",\"emailVerified\":false,\"id\":3}"
+    },
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {}
   }
 }
